@@ -22,3 +22,16 @@ The following are the key parameters that lead to 73mph:
     - lanesSide = 3;
     - patchesAhead = 50;
     - patchesBehind = 10;
+2. Use single layer with 136 neurons followed by relu activation function
+3. Hyper parameter are optimized as follows:
+    - learning_rate: 0.0001,
+    - momentum: 0.6,
+    - batch_size: 128,
+    - l2_decay: 0.01
+4. And finally the optional parameters are set to:
+    - opt.experience_size = 100000;
+    - opt.start_learn_threshold = 50000;
+    - opt.gamma = 0.98;
+    - opt.learning_steps_total = 500000;
+    - opt.learning_steps_burnin = 7500;
+    - opt.epsilon_min = 0.65;
