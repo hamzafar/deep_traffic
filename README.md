@@ -19,6 +19,6 @@ and [73mph](https://github.com/hamzafar/deep_traffic/blob/master/deepTraffic_73.
 
 The following are the key parameters that lead to 73mph:
 1. Increase the input of agents as 
-    lanesSide = 3;
-    patchesAhead = 50;
-    patchesBehind = 10;
+    - lanesSide = 3;
+    - patchesAhead = 50;
+    - patchesBehind = 10;
